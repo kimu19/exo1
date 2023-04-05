@@ -1,0 +1,78 @@
+.haut
+{
+  background: red;
+  padding: 8px 16px;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.card
+{ 
+	width: 400px;
+	background-color: white;
+	border-radius: 20px;
+
+
+}
+.icon
+{
+	width: 20%;
+
+}
+body
+{ 
+	min-height: 100vh;
+	margin: 0; 
+	display: flex;
+	background-color: #09091a;
+	justify-content: center;
+	align-items: center;
+
+}
+.parent
+{
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+	
+}
+
+.content
+{
+	width: 70%;
+}
+.action
+{
+	text-align: center;
+	padding: 14px;
+	border-top: 2px solid #ff0000;
+}
+
+.btn
+{
+	padding:4px 14px;
+	outline: none;
+	border: none;
+	font-size: 11px;
+}
+.bg-red
+{
+	background-color: #ff0000;
+	color: white;
+}
+.bg-white
+{
+	color: red;
+}
+.close
+{
+	padding: 1px 2px;
+	background-color: white;
+	color:black;
+	outline: none;
+	border:none;
+}
