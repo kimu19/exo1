@@ -2,43 +2,53 @@
 <html>
 <head>
 	<title>exo2</title>
-	<link rel="stylesheet" type="text/css" href="exo2.css">
 </head>
-
 <body>
-	<div class="card">
+   <script>
+   	  var result;
 
- <div class="haut">
-	<h5>Discount offer:10% off</h5>
-	
-		
-         
-          <button class="close">x</button>
 
-		
-		
-	
+   	  console.log("1) Table de mutiplication de 5:");
 
-  </div>
- 
-       <div class="parent">
- 	<div class="icon"></div>
-     <div class="content">
+   	  console.log("");
 
-	 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	 quis nostrud exercitation ullamco laboris nisi ut a.</p>
-	 
-	 <button class="btn bg-red">validate</button>
-  </div>
-  </div>
-  
-  <div class="action">
-  	<button class="btn bg-red">Envoyer</button>
-  	<button class="btn bg-white">Annuler</button>
 
-  </div>
-  	
-  </div>
+   	  console.log("1°)pour les chiffres Paires:");
+   	  for(let i=0;i<20;i++){
+   	  	if(i%2==0){
+   	  		
+   	  		result=5*i;
+   	  		var afficher="5*"+i+"="+result;
+   	  		console.log(afficher);
+   	  	}
+   	  }
+
+   	 console.log("2°)pour les chiffres imPaires:");
+   	  for(let i=0;i<20;i++){
+   	  	if(i%2!==0){
+   	  		
+   	  		result=5*i;
+   	  		var afficher="5*"+i+"="+result;
+   	  		console.log(afficher);
+   	  	}
+   	  }
+
+     console.log("");
+     console.log("");
+   	  console.log("2) Equation du second degré: ax^2+bx+c  avec a=10 ,b=8 ,c=1 ");
+   	   const a=10;
+   	   const b=8;
+   	   const c=1;
+      var delta=((b*b)-(4*a*c));
+           
+     	console.log("delta=((8)^2)-(4(10*1)="+delta);
+      	 console.log("");
+            var x1=((-b-Math.sqrt(delta))/2*a);
+            var x2=((-b+Math.sqrt(delta))/2*a);
+        console.log("la valeur de x1="+x1+"  et la valeur de x2="+x2);
+
+     
+
+   </script>
 </body>
 </html>
