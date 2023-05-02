@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exo2</title>
+</head>
+<body>
+   <script>
+   	  var result;
+
+
+   	  console.log("1) Table de mutiplication de 5:");
+
+   	  console.log("");
+
+
+   	  console.log("1°)pour les chiffres Paires:");
+   	  for(let i=0;i<20;i++){
+   	  	if(i%2==0){
+   	  		
+   	  		result=5*i;
+   	  		var afficher="5*"+i+"="+result;
+   	  		console.log(afficher);
+   	  	}
+   	  }
+
+   	 console.log("2°)pour les chiffres imPaires:");
+   	  for(let i=0;i<20;i++){
+   	  	if(i%2!==0){
+   	  		
+   	  		result=5*i;
+   	  		var afficher="5*"+i+"="+result;
+   	  		console.log(afficher);
+   	  	}
+   	  }
+
+     console.log("");
+     console.log("");
+   	  console.log("2) Equation du second degré: ax^2+bx+c  avec a=10 ,b=8 ,c=1 ");
+   	   const a=10;
+   	   const b=8;
+   	   const c=1;
+      var delta=((b*b)-(4*a*c));
+           
+     	console.log("delta=((8)^2)-(4(10*1)="+delta);
+      	 console.log("");
+            var x1=((-b-Math.sqrt(delta))/2*a);
+            var x2=((-b+Math.sqrt(delta))/2*a);
+        console.log("la valeur de x1="+x1+"  et la valeur de x2="+x2);
+
+     
+
+   </script>
+</body>
+</html>
